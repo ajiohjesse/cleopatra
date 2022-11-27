@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+:root {
+  /* colors */
+  --dark: #000;
+  --light: #fff;
+  --primary: #005968;
+  --secondary: #f59360;
+  --muted: #404040;
+  --light-100: #00586822;
+  --light-200: #d6ddde28;
+  --spacing: 65px;
+
+  /* Fonts */
+  --bold-black-font: "Palanquin Dark", sans-serif;
+  --body-font: "Poppins", sans-serif;
+
+  /* Media query breakpoints */
+  --mobile-small: 320px;
+  --mobile-large: 425px;
+  --tablet: 768px;
+  --laptop: 1024px;
+  --desktop: 1440px;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 18px;
+}

@@ -1,0 +1,37 @@
+.heroWrapper {
+  padding-top: 120px;
+}
+
+.heroTitle {
+  font-family: var(--bold-black-font);
+  font-size: 55px;
+  line-height: 1.2;
+  text-shadow: 4px -2px 0 var(--light);
+}
+
+.heroDesc {
+  margin-block: 2rem;
+}
+
+.heroBtns > button {
+  border: none;
+  height: 80px;
+  width: 100%;
+  color: var(--light);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.heroBtns > button:first-child {
+  background-color: var(--primary);
+}
+.heroBtns > button:last-child {
+  background-color: var(--dark);
+}
+
+.heroBtns > button > svg {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,51 @@
+.products {
+  padding-block: var(--spacing);
+  padding-top: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tabs > input {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.tabs > input::before {
+  content: "";
+  border: 1px solid var(--primary);
+  padding: 4px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.725rem;
+  transition: all 300ms ease-in-out;
+}
+
+.tabs > input[value="all"]::before {
+  content: "All Categories";
+}
+.tabs > input[value="men products"]::before {
+  content: "Men Products";
+}
+.tabs > input[value="women products"]::before {
+  content: "Women Products";
+}
+.tabs > input[value="accessories"]::before {
+  content: "Accessories";
+}
+
+.tabs > input:checked:before {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: var(--light);
+}

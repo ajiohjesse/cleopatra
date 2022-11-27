@@ -1,0 +1,30 @@
+.services {
+  padding-block: var(--spacing);
+  padding-top: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.serviceCard {
+  height: 200px;
+  padding-inline: 2rem;
+  background-color: var(--light-200);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  color: var(--primary);
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: var(--light-100);
+  display: grid;
+  place-items: center;
+}

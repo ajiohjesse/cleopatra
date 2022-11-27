@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <section className={styles.headerWrapper}>
       <div className={styles.heroImg}>
-        <Image src={clothes} fill objectFit="cover" />
+        <Image src={clothes} fill objectFit="cover" alt="cloths on a rack" />
       </div>
       <Container>
         <Nav />

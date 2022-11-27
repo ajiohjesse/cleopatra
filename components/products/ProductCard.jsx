@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className={styles.card}>
       <div className={styles.image}>
-        <Image src={image} alt="crop top" fill objectFit="cover" />
+        <Image src={image} alt="crop top" fill className={styles.cardImg} />
       </div>
       <p className={styles.title}>{title}</p>
       <p className={styles.price}>&#x20A6; {price.toLocaleString('en-Us')}</p>

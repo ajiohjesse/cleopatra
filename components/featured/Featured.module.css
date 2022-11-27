@@ -59,3 +59,7 @@
   transform: translateY(-15px);
   font-size: 1.3rem;
 }
+
+.featuredImg {
+  object-fit: cover;
+}

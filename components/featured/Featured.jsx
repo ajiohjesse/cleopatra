@@ -16,9 +16,9 @@ const Featured = () => {
               <p>formal wear</p>
             </div>
             <Image
+              className={styles.featuredImg}
               src={formal}
               fill
-              objectFit="cover"
               alt="woman in red coat"
             />
           </div>
@@ -28,9 +28,9 @@ const Featured = () => {
               <p>street style</p>
             </div>
             <Image
+              className={styles.featuredImg}
               src={street}
               fill
-              objectFit="cover"
               alt="woman in red coat"
             />
           </div>
@@ -40,9 +40,9 @@ const Featured = () => {
               <p>casual wear</p>
             </div>
             <Image
+              className={styles.featuredImg}
               src={casual}
               fill
-              objectFit="cover"
               alt="woman in red coat"
             />
           </div>

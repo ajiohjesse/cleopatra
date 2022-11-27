@@ -30,3 +30,7 @@
   gap: 2px;
   color: #da9d05;
 }
+
+.cardImg {
+  object-fit: cover;
+}

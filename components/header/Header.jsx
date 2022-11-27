@@ -7,15 +7,20 @@ import clothes from '@public/images/clothes-rack.jpg'
 
 const Header = () => {
   return (
-    <section className={styles.headerWrapper}>
+    <header className={styles.headerWrapper}>
       <div className={styles.heroImg}>
-        <Image src={clothes} fill objectFit="cover" alt="cloths on a rack" />
+        <Image
+          className={styles.image}
+          src={clothes}
+          fill
+          alt="cloths on a rack"
+        />
       </div>
       <Container>
         <Nav />
         <Hero />
       </Container>
-    </section>
+    </header>
   )
 }
 

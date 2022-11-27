@@ -12,3 +12,7 @@
   width: 100%;
   z-index: -1;
 }
+
+.image {
+  object-fit: cover;
+}

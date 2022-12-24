@@ -21,7 +21,7 @@
 }
 
 .linkGroup > ul > li > a {
-  color: var(--primary);
+  color: var(--secondary);
   text-decoration: none;
   display: flex;
   flex-direction: column;

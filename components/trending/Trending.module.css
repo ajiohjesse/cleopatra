@@ -23,3 +23,13 @@
 .image > img {
   object-fit: cover;
 }
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  
+}

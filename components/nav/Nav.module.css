@@ -10,8 +10,8 @@
 .logo {
   color: var(--dark);
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.333;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -31,21 +31,21 @@
 }
 
 .menuBar {
-  width: 25px;
-  height: 4px;
+  width: 20px;
+  height: 2px;
   border-radius: 50px;
   background-color: var(--dark);
   transition: all 300ms ease-in-out;
 }
 
 .menuBtn.isOpen > .menuBar[data-id="1"] {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
 }
 .menuBtn.isOpen > .menuBar[data-id="2"] {
   scale: 0;
 }
 .menuBtn.isOpen > .menuBar[data-id="3"] {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .navLinks {
@@ -72,6 +72,11 @@
 .navLinks > li > a {
   color: var(--primary);
   text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.navLinks > li > a:hover {
+  color: var(--secondary);
 }
 
 @keyframes rotate {

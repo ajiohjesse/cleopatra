@@ -11,7 +11,7 @@
   --muted-dark: #adb9bb;
   --light-100: #00586822;
   --light-200: #d6ddde28;
-  --spacing: 65px;
+  --spacing: 100px;
 
   /* Fonts */
   --bold-black-font: "Palanquin Dark", sans-serif;
@@ -20,7 +20,8 @@
   /* Media query breakpoints */
   --mobile-small: 320px;
   --mobile-large: 425px;
-  --tablet: 768px;
+  --tablet-small: 600px;
+  --tablet-large: 768px;
   --laptop: 1024px;
   --desktop: 1440px;
 }

@@ -1,6 +1,5 @@
 .headerWrapper {
   position: relative;
-  /* background-color: red; */
 }
 
 .heroImg {
@@ -15,4 +14,11 @@
 
 .image {
   object-fit: cover;
+  object-position: top;
+}
+
+@media screen and (min-width: 600px) {
+  .heroImg {
+    bottom: 26%;
+  }
 }

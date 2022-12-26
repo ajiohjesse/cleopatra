@@ -8,10 +8,6 @@
   position: relative;
 }
 
-.grid {
-  position: relative;
-}
-
 .formal {
   position: relative;
   width: 100%;
@@ -62,4 +58,32 @@
 
 .featuredImg {
   object-fit: cover;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    grid-template-areas: 
+      "formal street"
+      "formal casual"
+    ;
+    grid-auto-columns: 1fr;
+    gap: 1.5rem;
+
+  }
+
+  .formal {
+    grid-area: formal;
+    height: auto;
+  }
+
+  .street {
+    grid-area: street;
+  }
+
+  .casual {
+    grid-area: casual;
+  }
+
+
 }
